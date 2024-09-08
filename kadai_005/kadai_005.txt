@@ -1,0 +1,28 @@
+﻿kubotamei@kubotameinoMacBook-Air samurai-terakoya % mkdir git_challenge
+kubotamei@kubotameinoMacBook-Air samurai-terakoya % /Users/kubotamei/Downloads/hello_world.txt git status
+zsh: no such file or directory: /Users/kubotamei/Downloads/hello_world.txt
+kubotamei@kubotameinoMacBook-Air samurai-terakoya % cd git_challenge
+kubotamei@kubotameinoMacBook-Air git_challenge % git init
+Initialized empty Git repository in /Users/kubotamei/Desktop/samurai-terakoya/git_challenge/.git/
+kubotamei@kubotameinoMacBook-Air git_challenge % git add hello_world.txt
+kubotamei@kubotameinoMacBook-Air git_challenge % git commit -m "初めてのコミット"
+[main (root-commit) d240218] 初めてのコミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+kubotamei@kubotameinoMacBook-Air git_challenge % git add hello_world.txt
+kubotamei@kubotameinoMacBook-Air git_challenge % git commit -m "2回目のコミット"
+[main 07d2cb6] 2回目のコミット
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+kubotamei@kubotameinoMacBook-Air git_challenge % git log
+commit 07d2cb6791c39c843d3f666d8b776cbd2b9a09e6 (HEAD -> main)
+Author: Ofkbomk <kmeiofkbo@gmail.com>
+Date:   Sun Sep 8 20:06:48 2024 +0900
+
+    2回目のコミット
+
+commit d24021899e4f8f0f7f6cd643b7f36fe02960700e
+Author: Ofkbomk <kmeiofkbo@gmail.com>
+Date:   Fri Sep 6 16:17:20 2024 +0900
+
+    初めてのコミット
+    
